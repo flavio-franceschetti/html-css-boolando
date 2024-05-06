@@ -58,3 +58,22 @@ li a {
 .header-icons a:last-child {
   margin: 0;
 }
+
+/* MAIN */
+main {
+  padding-top: 100px;
+}
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product {
+  width: calc(100% / 3 - 20px);
+  background-color: lightgray;
+  /* debug */
+  height: 600px;
+}
