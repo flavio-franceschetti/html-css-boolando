@@ -75,6 +75,7 @@ main {
 /* PRODUCTS DESIGN*/
 .product {
   width: calc(100% / 3 - 20px);
+  position: relative;
   /* debug */
   /* background-color: lightgray;
   min-height: 600px; */
@@ -104,4 +105,23 @@ main {
 .full-price {
   font-size: 14px;
   text-decoration: line-through;
+}
+
+/* LABELS SECTION */
+
+.labels {
+  color: #fff;
+  position: absolute;
+  bottom: 100px;
+  left: 0;
+}
+
+.discount-label {
+  background-color: red;
+  padding: 4px 8px;
+}
+
+.sustainability-label {
+  background-color: green;
+  padding: 4px 8px;
 }
