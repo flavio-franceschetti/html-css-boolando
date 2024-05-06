@@ -7,7 +7,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(41, 41, 41);
+  color: #292929;
 }
 
 /* REUSABLE */
@@ -77,6 +77,8 @@ main {
 .product {
   width: calc(100% / 3 - 20px);
   position: relative;
+  color: #292929;
+  text-decoration: none;
   /* debug */
   /* background-color: lightgray;
   min-height: 600px; */
@@ -125,4 +127,16 @@ main {
 .sustainability-label {
   background-color: green;
   padding: 4px 8px;
+}
+/* ------------------- */
+
+.favorite-button {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  font-size: 24px;
+  border: none;
+  background-color: #fff;
+  padding: 5px;
+  cursor: pointer;
 }
