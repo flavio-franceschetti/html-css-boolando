@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +7,54 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+}
+
+/* REUSABLE */
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: #ff6900;
+  padding: 10px 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+.flex-top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* NAV LIST */
+.nav-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+}
+
+li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+/* ------------------------ */
+
+/* HEADER ICONS */
+.header-logo img {
+  height: 32px;
+}
+
+.header-icons a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.header-icons a:last-child {
+  margin: 0;
 }
