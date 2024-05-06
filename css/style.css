@@ -20,6 +20,7 @@ body {
 /* HEADER */
 header {
   position: fixed;
+  z-index: 999;
   width: 100%;
   background-color: #ff6900;
   padding: 10px 0;
