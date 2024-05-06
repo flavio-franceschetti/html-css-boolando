@@ -7,6 +7,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  color: rgb(41, 41, 41);
 }
 
 /* REUSABLE */
@@ -71,9 +72,36 @@ main {
   flex-wrap: wrap;
 }
 
+/* PRODUCTS DESIGN*/
 .product {
   width: calc(100% / 3 - 20px);
-  background-color: lightgray;
   /* debug */
-  height: 600px;
+  /* background-color: lightgray;
+  min-height: 600px; */
+}
+
+.product img {
+  width: 100%;
+}
+
+.brand-name {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.product-description {
+  display: block;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.current-price {
+  color: red;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.full-price {
+  font-size: 14px;
+  text-decoration: line-through;
 }
