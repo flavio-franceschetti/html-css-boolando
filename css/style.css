@@ -11,7 +11,6 @@ body {
 }
 
 /* REUSABLE */
-
 .container {
   width: 80%;
   margin: 0 auto;
@@ -40,10 +39,14 @@ header {
   list-style: none;
 }
 
-.nav-list li a {
+.nav-link {
   color: #fff;
   text-decoration: none;
   font-weight: 600;
+}
+
+.nav-link:hover {
+  text-decoration: underline 2px solid #fff;
 }
 /* ------------------------ */
 
@@ -88,6 +91,30 @@ main {
   width: 100%;
 }
 
+.product-one img:hover {
+  content: url(../img/1b.webp);
+}
+
+.product-two img:hover {
+  content: url(../img/2b.webp);
+}
+
+.product-three img:hover {
+  content: url(../img/3b.webp);
+}
+
+.product-four img:hover {
+  content: url(../img/4b.webp);
+}
+
+.product-five img:hover {
+  content: url(../img/5b.webp);
+}
+
+.product-six img:hover {
+  content: url(../img/6b.webp);
+}
+
 .brand-name {
   font-size: 14px;
   font-weight: 400;
@@ -128,7 +155,6 @@ main {
   background-color: green;
   padding: 4px 8px;
 }
-/* ------------------- */
 
 .favorite-button {
   position: absolute;
@@ -140,6 +166,11 @@ main {
   padding: 5px;
   cursor: pointer;
 }
+
+.favorite-button:hover {
+  color: red;
+}
+/* ------------------- */
 
 /* FOOTER */
 footer {
@@ -169,6 +200,10 @@ footer span {
   color: #fff;
   text-decoration: none;
   font-size: 12px;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
 }
 
 .footer-social div {
