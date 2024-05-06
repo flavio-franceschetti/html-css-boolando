@@ -34,6 +34,7 @@ header {
 
 /* NAV LIST */
 .nav-list {
+  width: calc(100% / 3);
   display: flex;
   gap: 10px;
   list-style: none;
@@ -50,9 +51,18 @@ header {
 }
 /* ------------------------ */
 
-/* HEADER ICONS */
+.header-logo {
+  width: calc(100% / 3);
+  text-align: center;
+}
+
 .header-logo img {
   height: 32px;
+}
+
+.header-icons {
+  width: calc(100% / 3);
+  text-align: right;
 }
 
 .header-icons a {
