@@ -101,11 +101,23 @@ main {
   width: 100%;
 }
 
-.product-one img:hover {
-  content: url(../img/1b.webp);
+.product:hover .main-image {
+  display: none;
 }
 
-.product-two img:hover {
+.product:hover .secondary-image {
+  display: inline-block;
+}
+
+.secondary-image {
+  display: none;
+}
+
+/* .product-one img:hover {
+  content: url(../img/1b.webp);
+} */
+
+/* .product-two img:hover {
   content: url(../img/2b.webp);
 }
 
@@ -123,7 +135,7 @@ main {
 
 .product-six img:hover {
   content: url(../img/6b.webp);
-}
+} */
 
 .brand-name {
   font-size: 14px;
